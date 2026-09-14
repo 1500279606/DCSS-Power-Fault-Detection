@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DCSS private files
+data/
+datasets/*
+!datasets/README.md
+
+results/
+logs/
+checkpoints/
+weights/
+wandb/
+runs/
+
+*.pth
+*.pt
+*.ckpt
+
+*.csv
+*.npy
+*.npz
+*.mat
